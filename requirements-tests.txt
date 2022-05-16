@@ -4,10 +4,12 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements-tests.txt requirements-tests.in
 #
-acme==1.26.0
+acme==1.27.0
     # via certbot
 alembic==1.7.7
     # via flask-migrate
+async-timeout==4.0.2
+    # via redis
 attrs==21.4.0
     # via
     #   jschema-to-python
@@ -22,17 +24,17 @@ bandit==1.7.4
     # via -r requirements-tests.in
 black==22.3.0
     # via -r requirements-tests.in
-boto3==1.22.4
+boto3==1.22.10
     # via
     #   aws-sam-translator
     #   moto
-botocore==1.25.4
+botocore==1.25.10
     # via
     #   aws-xray-sdk
     #   boto3
     #   moto
     #   s3transfer
-certbot==1.26.0
+certbot==1.27.0
     # via -r requirements-tests.in
 certifi==2021.10.8
     # via requests
@@ -52,7 +54,7 @@ configobj==5.0.6
     # via certbot
 coverage==6.3.2
     # via -r requirements-tests.in
-cryptography==37.0.1
+cryptography==37.0.2
     # via
     #   acme
     #   certbot
@@ -78,7 +80,7 @@ faker==13.11.0
     # via
     #   -r requirements-tests.in
     #   factory-boy
-fakeredis==1.7.1
+fakeredis==1.7.4
     # via -r requirements-tests.in
 flask==1.1.2
     # via
@@ -229,7 +231,7 @@ pyyaml==6.0
     #   bandit
     #   cfn-lint
     #   moto
-redis==4.1.4
+redis==4.2.2
     # via
     #   -r requirements-tests.in
     #   fakeredis
@@ -298,7 +300,7 @@ wrapt==1.14.0
     # via
     #   aws-xray-sdk
     #   deprecated
-xmltodict==0.12.0
+xmltodict==0.13.0
     # via moto
 zope-component==5.0.1
     # via certbot

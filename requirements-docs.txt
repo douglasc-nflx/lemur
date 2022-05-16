@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements-docs.txt requirements-docs.in
 #
-acme==1.26.0
+acme==1.27.0
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -21,6 +21,10 @@ aniso8601==9.0.1
     # via flask-restful
 arrow==1.2.2
     # via -r requirements-docs.in
+async-timeout==4.0.2
+    # via
+    #   -r requirements-tests.txt
+    #   redis
 attrs==21.4.0
     # via
     #   -r requirements-tests.txt
@@ -55,13 +59,13 @@ blinker==1.4
     # via
     #   flask-mail
     #   flask-principal
-boto3==1.22.4
+boto3==1.22.10
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   aws-sam-translator
     #   moto
-botocore==1.25.4
+botocore==1.25.10
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -71,7 +75,7 @@ botocore==1.25.4
     #   s3transfer
 celery[redis]==5.2.6
     # via -r requirements-docs.in
-certbot==1.26.0
+certbot==1.27.0
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -123,7 +127,7 @@ configobj==5.0.6
     #   certbot
 coverage==6.3.2
     # via -r requirements-tests.txt
-cryptography==37.0.1
+cryptography==37.0.2
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -169,7 +173,7 @@ faker==13.11.0
     # via
     #   -r requirements-tests.txt
     #   factory-boy
-fakeredis==1.7.1
+fakeredis==1.7.4
     # via -r requirements-tests.txt
 flask==1.1.2
     # via
@@ -455,7 +459,7 @@ pyyaml==6.0
     #   cfn-lint
     #   cloudflare
     #   moto
-redis==4.1.4
+redis==4.2.2
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -498,7 +502,7 @@ sarif-om==1.0.4
     # via
     #   -r requirements-tests.txt
     #   cfn-lint
-sentry-sdk==1.5.10
+sentry-sdk==1.5.11
     # via -r requirements-docs.in
 six==1.16.0
     # via
@@ -611,7 +615,7 @@ wrapt==1.14.0
     #   -r requirements-tests.txt
     #   aws-xray-sdk
     #   deprecated
-xmltodict==0.12.0
+xmltodict==0.13.0
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
