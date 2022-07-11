@@ -22,13 +22,13 @@ aws-xray-sdk==2.9.0
     # via moto
 bandit==1.7.4
     # via -r requirements-tests.in
-black==22.3.0
+black==22.6.0
     # via -r requirements-tests.in
-boto3==1.24.17
+boto3==1.24.23
     # via
     #   aws-sam-translator
     #   moto
-botocore==1.27.17
+botocore==1.27.23
     # via
     #   aws-xray-sdk
     #   boto3
@@ -76,7 +76,7 @@ ecdsa==0.17.0
     #   sshpubkeys
 factory-boy==3.2.1
     # via -r requirements-tests.in
-faker==13.14.0
+faker==13.15.0
     # via
     #   -r requirements-tests.in
     #   factory-boy
@@ -230,11 +230,11 @@ pyyaml==6.0
     #   bandit
     #   cfn-lint
     #   moto
-redis==4.3.3
+redis==4.3.4
     # via
     #   -r requirements-tests.in
     #   fakeredis
-requests==2.28.0
+requests==2.28.1
     # via
     #   acme
     #   docker
