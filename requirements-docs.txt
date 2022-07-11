@@ -175,7 +175,7 @@ faker==13.14.0
     #   factory-boy
 fakeredis==1.8.1
     # via -r requirements-tests.txt
-flask==1.1.2
+flask==2.1.2
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
