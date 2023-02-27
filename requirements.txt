@@ -171,7 +171,7 @@ markupsafe==2.1.1
     # via
     #   jinja2
     #   mako
-marshmallow==2.21.0
+marshmallow==3.19.0
     # via
     #   -r requirements.in
     #   marshmallow-sqlalchemy
@@ -179,6 +179,8 @@ marshmallow-sqlalchemy==0.23.1
     # via -r requirements.in
 ndg-httpsclient==0.5.1
     # via -r requirements.in
+packaging==23.0
+    # via marshmallow
 paramiko==3.0.0
     # via -r requirements.in
 parsedatetime==2.6

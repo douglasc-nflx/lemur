@@ -311,7 +311,7 @@ markupsafe==2.1.1
     #   jinja2
     #   mako
     #   moto
-marshmallow==2.21.0
+marshmallow==3.19.0
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -336,6 +336,7 @@ packaging==23.0
     # via
     #   -r requirements-tests.txt
     #   black
+    #   marshmallow
     #   pytest
     #   sphinx
 paramiko==3.0.0
