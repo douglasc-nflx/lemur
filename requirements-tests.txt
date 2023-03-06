@@ -146,7 +146,7 @@ markupsafe==2.1.1
     #   jinja2
     #   mako
     #   moto
-marshmallow==2.21.0
+marshmallow==3.19.0
     # via
     #   -r requirements-tests.in
     #   marshmallow-sqlalchemy
@@ -163,6 +163,7 @@ nose==1.3.7
 packaging==23.0
     # via
     #   black
+    #   marshmallow
     #   pytest
 parsedatetime==2.6
     # via certbot
